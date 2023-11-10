@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Url Shortner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #292c35;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container{
+            color: #fff;
+            text-align: center;
+            padding: 20px 750px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Shortned URL {{url}}</h1>
+    </header>
+    <div class="container">
+        <img src={{qrimg}} id="event-1">
+        </img> 
+        Your QR Code Scan This 
+</div>
+</body>
+</html>
